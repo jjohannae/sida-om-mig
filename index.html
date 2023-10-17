@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Länken nedan går till en CSS-fil, vilken innehåller all styling för sidan. 
+      Du hittar den filen i samma mapp som index.html.  
+    <link rel="stylesheet" href="./style.css" type="text/css" />-->
+
+    <!-- <title> är den titel du kan se överst i webbläsaren, i tabben, -->
+    <title>Min Sida</title>
+  </head>
+
+  <body>
+    <!-- Sidan är indelead i tre delar –> header, main och footer taggar för att man enkelt
+      ska kunna se vilken kod som hör till vilken del av sidan. -->
+
+    <!--Uppdatera koden så att sidan handlar om dig -->
+    <header class="header-about-me">
+      <!--Här kan du byta ut mot en bild på dig själv, kom ihåg att lägga den
+          i samma mapp som index.html -->
+      <img src="johanna.jpg" alt="picture of Johanna" />
+      <h1>Hej, jag heter Johanna!</h1>
+      <h2>Jag jobbar som utvecklare</h2>
+
+      <!-- Uppdatera länken till dina sociala medier -->
+      <a class="button" href="https://www.linkedin.com/in/johanna-eriksson-644265193/">
+        Säg hej på Linkedin
+      </a>
+    </header>
+
+    <!-- I main lägger man sidans viktigaste innehåll -->
+    <main class="about-me">
+      <h2>Info om mig:</h2>
+
+      <h3>En plats jag gillar</h3>
+      <!-- Lägg in en bild på platsen du gillar ovanför p-taggen. I p-taggen kan du gärna skriva kort om platsen du valt. -->
+      <img src="salen.jpg" alt="picture of Sälen" width="400" height="200" />
+
+      <p>
+        En plats som jag gillar är Sälen. Där kan man åka skidor under vintern
+        och under sommar och höst kan man vandra. <!-- Temperaturen i Sälen är just
+        nu <span id="temperature"></span>°C -->
+      </p>
+
+      <h3>Tre saker jag gillar att göra</h3>
+
+      <ul>
+        <li>Läsa bok</li>
+        <li>Yoga</li>
+        <li>Spela spel</li>
+      </ul>
+
+     <!--  <section>
+        <h3>Vad heter du?</h3>
+        <p>Jag vill gärna veta vad du heter, tryck på knappen och skriv in ditt namn.</p>
+        <button id="addNameBtn" class="button">Klicka på mig</button>
+        <p id="name-text"></p>
+      </section> -->
+
+    </main>
+
+    <footer>
+      <!--Extrauppgift, om du har tid över kan du fylla denna footer med valfritt innehåll.
+      För att få inspiration kan du kolla andra hemsidor vad de brukar ha i sin footer.-->
+    </footer>
+
+    <!-- Länken nedan går till en JS-fil, vilket anropar ett api som hämtar väderdata. 
+    Du hittar den filen i samma mapp som index.html.  -->
+    <script src="script.js"></script>
+  </body>
+</html>
